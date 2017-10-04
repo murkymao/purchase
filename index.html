@@ -8,10 +8,35 @@
     <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
 </head>
 <body>
-<div class="slogan">
-    <img src="assets/img/logo.png" alt="logo">
-    <h1>IP</h1><h2>Toolworks, <span>llc</span></h2> <h3>WE MAKE GOOD IP ATTORNEYS BETTER</h3>
-</div>
 
+<header>
+    <div class="slogan">
+        <img src="assets/img/logo.png" alt="logo">
+        <h1>IP</h1>
+        <h2>Toolworks, <span>llc</span></h2>
+        <h3>WE MAKE GOOD IP ATTORNEYS BETTER</h3>
+    </div>
+    <nav class="topnav" id="topnav">
+        <a href="#">Login</a>
+        <a href="#">Product</a>
+        <a href="#">Our Users</a>
+        <a href="#">About Us</a>
+        <a href="#">FAQs</a>
+        <a href="#">Media</a>
+        <a href="#">Purchase</a>
+        <a href="javascript:void(0);" class="mobile-menu-icon" onclick="showMobileMenu()"></a>
+    </nav>
+</header>
+
+<script>
+    function showMobileMenu() {
+        var x = document.getElementById("topnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 </body>
 </html>

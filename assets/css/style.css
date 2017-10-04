@@ -38,3 +38,30 @@ h3 {
     margin-left: auto;
     margin-right: 375px;
 }
+
+.topnav {
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    background-color: #574e3f;
+    padding: 25px 40px;
+    border-bottom: 5px solid #c88a12;
+}
+
+.topnav a {
+    font-family: "Gotham Bold";
+    font-size: 24px;
+    margin: 0 15px;
+    padding: 0 0 2px 0;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ .topnav a:first-child {
+     margin-right: auto;
+ }
+
+ .topnav a:hover {
+     color: #c88a12;
+ }
+
