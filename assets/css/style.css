@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Gotham Bold";
+    src: url("../fonts/GothamBold.otf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.slogan {
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    background-color: #cd9529;
+    padding: 15px 30px;
+}
+
+h1, h2, h3, span {
+    font-family: "Gotham Bold";
+    color: #ffffff;
+}
+
+h1{
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-right: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: 375px;
+}
