@@ -10,6 +10,11 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .slogan {
     display: flex;
     -webkit-align-items: center;
@@ -49,7 +54,7 @@ h3 {
 }
 
 .topnav a {
-    font-family: "Gotham Bold";
+    font-family: "Gotham";
     font-size: 24px;
     margin: 0 15px;
     padding: 0 0 2px 0;
@@ -59,9 +64,32 @@ h3 {
 
  .topnav a:first-child {
      margin-right: auto;
+     margin-left: 85px;
  }
 
  .topnav a:hover {
      color: #c88a12;
  }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/bg-clouds.png");
+    background-size: 100%;
+}
+
+.offer {
+    display: flex;
+    font-family: "Gotham";
+    font-size: 30px;
+    margin: 40px 180px 0 0;
+    text-align: center;
+}
+
+.logo-2 {
+    margin: 50px 100px;
+}
+
+.content {
+    display: flex;
+}
