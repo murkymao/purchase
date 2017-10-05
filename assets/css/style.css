@@ -99,17 +99,30 @@ h3 {
 }
 
 .oa, .builder, .group {
-    padding: 40px 20px;
+    padding-top: 30px;
+    text-align: center;
 }
 
 .oa, .builder {
     background-color: #424143;
     color: #ffffff;
+    width: 390px;
+}
+
+.oa {
+    padding-left: 15px;
+}
+
+.builder {
+    padding-right: 15px;
 }
 
 .group {
     background-color: #c88a12;
     color: #ffffff;
+    width: 370px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .oa-text, .group-text, .builder-text {
@@ -117,4 +130,16 @@ h3 {
     color: #424143;
     font-family: Gotham;
     font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    font-family: "Gotham Bold";
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.oa-btn::before {
+    content: url("../img/arrow-right.png");
 }
