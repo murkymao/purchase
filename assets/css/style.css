@@ -92,4 +92,29 @@ h3 {
 
 .content {
     display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    font-family: "Gotham Bold";
+    font-size: 30px;
+}
+
+.oa, .builder, .group {
+    padding: 40px 20px;
+}
+
+.oa, .builder {
+    background-color: #424143;
+    color: #ffffff;
+}
+
+.group {
+    background-color: #c88a12;
+    color: #ffffff;
+}
+
+.oa-text, .group-text, .builder-text {
+    background-color: #ffffff;
+    color: #424143;
+    font-family: Gotham;
+    font-size: 18px;
 }
